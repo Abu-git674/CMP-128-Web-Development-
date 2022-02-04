@@ -1,0 +1,125 @@
+/* main body of the html */
+body {
+    width: 500px;
+    margin: 4% auto;
+    
+    letter-spacing: 5px; /* letter-spacing Property is to keep space between characters in a text. */
+    font-size: 1.8rem;
+    
+  }
+  
+  /* class calculator are being called to give background a decent style */
+  .calculator {
+    padding: 20px;
+    border-radius: 1px;
+    background: whitesmoke;
+  }  
+  
+/* giving well organized style to input and output of the calculator. 
+So that input and output after calculation doesn't float all over place */
+  .input {
+
+    border: 1px solid #ddd;
+    border-radius: 1px;
+    height: 60px;
+    padding-right: 15px;
+    padding-top: 10px;
+    text-align: right;
+    margin-right: 6px;
+    font-size: 2.5rem;
+    overflow-x: auto;
+    
+  }
+  
+  /*simple style to input and output hover */
+  .input:hover {
+    border: 1px solid #bbb;
+    background: maroon;
+  }
+  
+  
+  
+  
+  /* this helping to keep all operators in one block and also giving them same width as well same style */
+  .operators div {
+    display: inline-block;
+    border: 1px solid #bbb;
+    border-radius: 1px;
+    width: 79px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px 2px 10px ;
+    cursor: pointer;
+    background-color: #ddd;
+    font-weight: bold;
+    
+  }
+  
+  /*simple hover style like  last input hover */
+  .operators div:hover {
+    background-color: maroon;
+    border-color: #aaa;
+  }
+  
+  
+  /* this box keeping all main elements together  
+  without left panel equal sign won't float on the right side*/
+  .leftPanel {
+    display: inline-block;
+  }
+  
+  
+  /* styling all numbers */
+  .main-elements div {
+    display: inline-block;
+    border: 1px solid #ddd;
+    border-radius: 1px;
+    width: 79px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 2px 10px ;
+    cursor: pointer;
+    background-color: #f9f9f9;
+    font-weight: bold;
+    
+  }
+  /* hover style */
+  .main-elements div:hover {
+    background-color:lightblue;
+    border-color: #bbb;
+  }
+  
+  
+  /* giving width to the equal sign from the main elements left over space 
+  so it would float to the right as well adding some style */
+  div.equal-button {
+    display: inline-block;
+    border: 1px solid #3079ED;
+    border-radius: 1px;
+    width: 17%;
+    text-align: center;
+    padding: 127px 10px;
+    margin: 10px 4px 10px ;
+    vertical-align: top;
+    cursor: pointer;
+    color: #FFF;
+    background-color: #4d90fe;
+    font-weight: bold;
+    
+  }
+  
+  div.equal-button:hover {
+    background-color: #307CF9;
+    border-color: #1857BB;
+  }
+
+  #clear-button:hover {
+
+             color:#FC5B67;
+             background-color:goldenrod;
+  }
+  
+  
+ 
+
+
