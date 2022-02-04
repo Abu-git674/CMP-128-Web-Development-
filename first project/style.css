@@ -1,0 +1,170 @@
+
+/* This is an external CSS file  */
+
+/*customizing for index.html file*/
+body{
+    /*background-color:yellowgreen;*/
+    background-image: url("../images/star\ and\ moon.png");
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: right top;
+    color: black; /*This is to set the text color to be black */
+    font-size: 15px;
+}
+/*setting elements in the body in certain way */
+#main-container{
+    background-color: skyblue;
+    width: 90% ;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 20px;
+}
+
+/*Giving header a color and borderline */
+#heading{
+    border: solid 10px rebeccapurple;
+    background-color:  royalblue;
+    
+    
+}
+
+/* adding my profie picture to the header */
+.My-Pic{
+    width: 200px;
+    clip-path: circle();
+    margin-top: 65px;
+    margin-left: 10px;
+    
+    
+
+}
+
+/*adding padding to the header and giving a color*/
+#h1main-heading{
+    color: black !important;
+    text-align: center;
+    
+    
+}
+
+/* Setting a size for my main body and giving a background color */
+#main-content{
+    border: solid 5px black;
+    background-color: lightgoldenrodyellow;
+    
+}
+
+/* Customizing first paragraph with a class */
+.course{
+    color:darkblue;
+}
+/*giving custom color to specific word in paragraph one */
+#inId{ /*Span */
+    color:blue;
+}
+/* Customizing second paragraph with a class */
+#MyGoal{
+    color:darkgoldenrod;
+}
+/*Giving flag size and adjusting position    */
+.flag{
+    width: 15px;
+    padding-left: 10px;
+}
+/* italicize */
+#book{
+    color:darkred;
+    font-weight: bold;
+}
+/* italicize */
+#movie{
+    color:darkred;
+    font-weight: bold;
+}
+
+/*Creating nav */
+#main-nav{
+    border: solid 5px blue;
+    background-color: coral;
+}
+/*inside the nav link are being bordered */
+#link1{
+    border: solid red 2px;
+    margin-right: 10px;
+}
+
+#link2{
+    border: solid yellow 2px;
+    margin-right: 10px;
+}
+/*Creating a footer*/
+footer{
+    border: solid 5px blue;
+    background-color:lime;
+    text-align: center;
+
+}
+
+
+
+/* --------CSS to contactmepage--------*/
+
+/* Element represents the content of an HTML document */
+#contactme-container{
+
+    background-image: url("../images/3D-Beach.jpg");
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: right top;
+    color: black; /*This is to set the text color to be black */
+    font-size: 15px;
+}
+
+/* this is my header */
+#contactme-heading{
+    color: black;
+    background-color: darkred;
+    width: 35%;
+    margin-left: auto;
+    padding: 1%;
+    margin-top: 12%;
+    margin-right: auto;
+    margin-bottom: 0%;
+    text-align: center;
+    
+}
+/* The main content area consists of content  */
+#contactme-main{
+    
+    background-color: white;
+    width: 37%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+/*The Navigation Section element */
+#contactme-nav{
+    border: solid 5px blue;
+    background-color: coral;
+    text-align: center;
+}
+
+#link3{
+    border: solid red 2px;
+    
+    text-align: center;
+}
+
+#link4{
+    border: solid yellow 2px;
+    
+    text-align: center;
+}
+#link5{
+    border: solid blue 2px;
+    
+    text-align: center;
+    
+}
+
