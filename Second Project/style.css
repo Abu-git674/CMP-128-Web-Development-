@@ -1,0 +1,295 @@
+
+/* This is an external CSS file that we are creating. */
+body{
+    /* background-color:yellowgreen;*/
+    /* This is a CSS comment */
+    /* CSS comment is placed in CSS code */
+    /* An HTML comment is placed in HTML code */
+    
+    
+    margin: 0%;
+    
+}
+
+#header{ /* this is my header */
+
+       background-color: #1E1F26;
+       text-align:center ;
+       color: white;
+       padding: 10px;
+}
+#main-nav { /* this my nav */
+    background-color: #BE3144;
+    
+    padding: 45px 16px 50px 16px;
+    text-decoration: none; /*We do this to remove the underline on the link */
+    font-size: 20px;
+    font-style: italic;
+    /* text decoration: This property defines what text decoration
+    should be added to a text.
+    Values for text decoration:  
+    underline, overline, line-through, none
+    
+    */
+
+}
+#rightside{  /* this is the div inside main-nav that floating link to the right */
+    float:right;
+    
+}
+#main-nav a{ /* targetting a tag in the inside nav */
+    
+    padding: 24px 16px 24px 16px; 
+    color:#F0EFEF;
+
+    text-decoration: none; /*do this to remove the underline on the link 
+                            a text decoration has value of underline, overline, 
+                            none and cross-line  */
+  
+}
+
+
+#main-nav a:hover{ /* again targetting a tag in the inside nav */
+    background-color: #5A6074;
+    
+    color:#F0EFEF;
+
+}
+
+
+#heading{ /* this is the heading inside of a heading */
+    background-color: #303235;
+    
+    padding: 60px;
+    
+    
+}
+
+#header-heading{ /* giving color and text size of headin1(h1) inside header */
+    /* border-style: solid;
+    border-width: 5px;the first value is for top and bottom, 
+    the other value is for right and left
+    border-color: grey;*/
+    color:#F0F0F0 !important;
+    font-size:40px;
+    text-align: center;
+    padding-top: 50px;
+    
+}
+
+#p1heading{ /* parapraph(p) inside header */
+    color:#BE3144;
+    padding-bottom: 80px;
+    padding-top: -30px;
+    text-align: center;
+    font-style: italic;
+    font-size: 25px;
+}
+
+#main{ /* this main body containing div1,div2.....div6 */
+
+    background-color: #45567D ;
+    padding-bottom: 70%;
+    padding-top: 10px;
+    margin: 0 auto;
+    color: #F0F0F0;
+    
+    
+    
+}
+
+
+
+
+    #mainheading{ /* heading inside main */
+    text-align: center;
+    text-decoration:underline;
+    padding-bottom: 30px;
+    padding-top: 25px
+    
+    
+}
+
+.project-image{ /*seeting image of the article */
+    height: 300px;
+    width: 100%;
+}
+
+.project-title{  /*title inside a tag  main */
+    text-align: center;
+    background-color: #303841;
+    margin-top: -1%;             /* this closing gap between picture and title */
+    padding-top: 20px; ;
+    padding-bottom: 30px;
+    color: white;
+    
+    
+} 
+ /*from div1 to div6 all about work project that created in the main*/
+#div1{
+    float:left;
+    width: 31%;
+
+    padding-left:1%;
+    padding-right: 1%;
+    
+}
+
+
+
+#div2{
+    float:left;
+    width: 31%;
+    padding-left:1%;
+    padding-right: 1%;
+}
+
+#div3{
+
+    float:right;
+    width: 31%;
+    padding-left:1%;
+    padding-right: 1.5%;
+    
+    
+    
+}
+#div4{
+    float:left;
+    width: 31%;
+    padding-left:1%;
+    padding-right: 1%;
+    
+    
+}
+
+#div5{
+    float:left;
+    width: 31%;
+    padding-left:1%;
+    padding-right: 1%;
+}
+
+#div6{
+
+    float:right;
+    width: 31%;
+    
+    padding-left:1%;
+    padding-right: 1.5%;
+}
+
+ #div1, #div2, #div3,#div4,#div5,#div6{
+        text-decoration: none;
+    }
+
+
+
+#contact{ /* this sesction for contact navigation */
+
+    background-color:#303841 ;
+    padding:11%;
+    color: white;
+    border-bottom: 4px solid #BE3144;
+    
+}
+
+#navheading{ /* contact nav heading */
+
+    margin-top: -5%;
+    text-align: center;
+    font-size: 60px;
+    font-style: oblique;
+}
+
+#navparagraph{ /* contact nav paragpraph */
+  
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+    margin-top: -4%;
+}
+
+#social-menu{ /* adding icon and contact link to my contact items */
+    margin-top: 6%;
+    text-align: center;
+    
+}
+#social-menu a{ /* targetting a tag inside contact items*/
+    
+    
+    font-size: 20px;
+    padding-left: 2%;
+    text-decoration-line: none;
+    color :white;
+    
+    
+    
+  
+}
+
+
+
+
+
+
+#footer{ /* this is my footer */
+    
+    background-color:#303841 ;
+    padding-top: 20px;
+    padding-bottom: 80px;
+    color: #D6D7D9;
+    
+    
+    
+
+}
+
+#footer1{ /* footer paragraph 1*/
+    float: left;
+    margin-left: 1%;
+
+}
+
+#footer2{ /* footer paragraph 2*/
+    float: right;
+    margin-right: 3%;
+
+}
+
+
+
+
+
+
+/* Media queries */
+
+/* The following media query will work on screens that 
+600px or less. to make div1 and div2 stack on top of each other,
+we made their width to be 100%;
+*/
+@media screen and (min-width:400px) and (max-width: 600px) {
+    body{
+        background-color: darkmagenta;
+    }
+
+    #div1, #div2, #div3,#div4,#div5,#div6{
+        width: 100%;
+    }
+
+    #main-nav a{
+        width: 100%;
+        
+    }
+
+    #footer{
+        width: 100%;
+        display: block;
+    }
+}
+
+
+
+
+
+
